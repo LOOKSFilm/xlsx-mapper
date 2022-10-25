@@ -39,6 +39,6 @@ Der alte Filename/Mapping-ID wird in das Feld <code>003b Mapping Identifier</cod
 
 Die Spalten <code>001 Identifier</code> und <code>014 Original Title</code> sind daher immer notwendig.
 
-User die das Tool benutzen benötigen "Metadata write Access" und "Locked Metadata write Access". Es werden nur Assets auf den Spaces gemapped für die der configurierte User berechtigung hat.
+User die das Tool benutzen benötigen "Metadata write Access" und "Locked Metadata write Access". Es werden nur Assets auf den Spaces gemapped für die der configurierte User Berechtigung hat.
 
 
