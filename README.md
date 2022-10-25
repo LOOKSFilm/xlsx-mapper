@@ -25,13 +25,17 @@ Script kann mit Strg-C unterbrochen werden.
 
 Script macht advanced search: Clipname is Mapping-ID
 
-bei treffer werden alle Werte die in den Spalten der Excel vorhanden (benennung identisch wie Metadatenfeld im EditShare z.B.: <code>006 Source</code>, <code>048 Rights Status</code> usw.) in die entsprechenden Felder des ES gemapped. Spalten deren benennung fremd ist werden ignoriert. 
+falls kein Asset vorhanden advanced search: 003b Mapping Identifier is Mapping-ID
+
+bei treffer werden alle Werte die in den Spalten der Excel vorhanden (benennung identisch wie Metadatenfeld im EditShare z.B.: <code>006 Source</code>, <code>048 Rights Status</code> usw.) in die entsprechenden Felder des ES gemapped. Spalten deren Benennung fremd ist werden ignoriert. 
 
 Werte der Felder müssen, falls vom EditShare durch Select/Multiselect vorgegeben, identisch sein.
 
 Werte für Boolean Felder: Yes / No
 
 Nach dem Mapping wird noch der Clipname geändert. Der neue Clipname setzt sich wie folgt zusammen: <code>001 Identifier__014 Original Title</code>
+
+Der alte Filename/Mapping-ID wird in das Feld <code>003b Mapping Identifier</code> geschrieben.
 
 Die Spalten <code>001 Identifier</code> und <code>014 Original Title</code> sind daher immer notwendig.
 
