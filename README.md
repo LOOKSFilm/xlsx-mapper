@@ -21,7 +21,7 @@ file.xlsx kann per drag'n'drop in das Consolenfenster gezogen werden.
 Script kann mit Strg-C unterbrochen werden.
 
 ## Funktion
-<code>Mapping-ID</code> entspricht dem Clipnamen des Assets auf dem EditShare. Diese ID ist frei zu wählen, sollte möglichst einzigartig sein. Clipnamen entsprechen dem Filenamen vor dem Ingesten. 
+<code>Mapping-ID</code> (muss immer in Feld A1 stehen!) entspricht dem Clipnamen des Assets auf dem EditShare. Diese ID ist frei zu wählen, sollte möglichst einzigartig sein. Clipnamen entsprechen dem Filenamen vor dem Ingesten. 
 
 Script macht advanced search: Clipname is Mapping-ID
 
