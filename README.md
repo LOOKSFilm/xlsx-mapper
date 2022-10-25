@@ -16,7 +16,7 @@ Username & password werden in einer Datei gespeichert, daher muss <code>xlsx-map
 #### Mapping: <code>xlsx-mapper -m dateipfad</code>
 file.xlsx kann per drag'n'drop in das Consolenfenster gezogen werden.
 
-<img src="pics/dragndropfile2.png" width="500" height="250" alt="github-logo"/><img src="pics/dragndropfile3.png" width="500" height="250" alt="github-logo"/>
+<img src="pics/dragndropfile2.png" width="600" height="300" alt="github-logo"/><img src="pics/dragndropfile3.png" width="600" height="300" alt="github-logo"/>
 
 Script kann mit Strg-C unterbrochen werden.
 
