@@ -33,11 +33,11 @@ Werte der Felder müssen, falls vom EditShare durch Select/Multiselect vorgegebe
 
 Werte für Boolean Felder: Yes / No
 
-Nach dem Mapping wird noch der Clipname geändert. Der neue Clipname setzt sich wie folgt zusammen: <code>001 Identifier__014 Original Title</code>
+Nach dem Mapping wird noch der Clipname geändert. Der neue Clipname setzt sich wie folgt zusammen: <code>001 Identifier__014 Title Orignal</code>
 
 Der alte Filename/Mapping-ID wird in das Feld <code>003b Mapping Identifier</code> geschrieben.
 
-Die Spalten <code>001 Identifier</code> und <code>014 Original Title</code> sind daher immer notwendig.
+Die Spalten <code>001 Identifier</code> und <code>014 Title Original</code> sind daher immer notwendig.
 
 User die das Tool benutzen benötigen "Metadata write Access" und "Locked Metadata write Access". Es werden nur Assets auf den Spaces gemapped für die der configurierte User Berechtigung hat.
 
