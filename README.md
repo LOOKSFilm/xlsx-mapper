@@ -2,7 +2,7 @@
 Command Line interface that maps Metadata from Excel-Template to EditShare Metadata-Fields 
 
 ## Install
-Download & run xlsx-mapper.msi
+Download & run the latest release.
 
 ## How to use
 Starte Eingabeaufforderung / Windows Powershell
