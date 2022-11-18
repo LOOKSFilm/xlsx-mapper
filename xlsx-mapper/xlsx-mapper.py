@@ -20,6 +20,9 @@ if args.config:
     config.configure()
 
 try:
+    // can we make this section interactive, so we don't need to store the pw in a file and don't need to run config first?
+    // we can try to make this run-once and store the data in temp folder
+    // if time == available: don't store pw in clear text
     configfile = open(f"C:/Users/{osusername}/.xlsx-mapper/config.p", "rb")
     login = pickle.load(configfile)
     EsAuth.login("192.168.0.221", login[0], login[1])
